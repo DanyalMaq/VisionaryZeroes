@@ -1,4 +1,4 @@
-CS766 Computer Vision 
+CS766 Computer Vision
 Visionary zeros Group
 Danyal Maqbool, Muhammad Musa, Melody Pak
 dmaqbool@wisc.edu
@@ -8,13 +8,15 @@ npak2@wisc.edu
 Drive Link: https://drive.google.com/drive/folders/1-17Qxyoz_Cl8RYgZsA8DmjCP8e306_6B?usp=sharing
 Opening the provided drive link and working on colab would be easier as the paths are all set acccordingly. 
 You can still run this locally but would need to modify any paths so that they point to the correct dataset/model. 
+You can install the dependencies with the requirements.txt provided.
 
 ## SAM (EfficientSAM.ipynb)
 The EfficientSAM notebook contains all code to reproduce our results from SAM. The only thing you would need to change are the paths for the datasets and models. 
-You will also need to download the SAM model itself which we use to finetune. It is available in the drive shortcut (finetunesam)
+You will also need to download the SAM model itself which we use to finetune. It is available in the drive shortcut (finetunesam).
 All necessary imports are made inside the notebook. You would need to install any missing libraries or use the requirements txt to install everything. 
 The Low rank tensor approximation section (LORA) has a separate install requirement that happens when you run its cells in the notebook.
-To use any of the roboflow datasets, you will need to make an account (for free) and generate an API key and replace it in the roboflow subsection in the dataset sections
+To use any of the roboflow datasets, you will need to make an account (for free) and generate an API key and replace it in the roboflow subsection in the dataset
+sections.
 All parameters are adjustable in the 'Declarations section'.
 The only other parameter that you may need to adjust is the "threhsold" value as SAM outputs probability masks so those can change depending on how much of a
 probability is sufficient for your task. 
