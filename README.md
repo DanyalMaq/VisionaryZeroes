@@ -13,7 +13,7 @@ The only other parameter that you may need to adjust is the "threhsold" value as
 probability is sufficient for your task. 
 Currently the notebook has all cells run with results in them that you can view. 
 Code heavily inspired from the following two links:
-https://maxjoas.medium.com/finetune-segment-anything-sam-for-images-with-multiple-masks-34514ee811bb
+https://maxjoas.medium.com/finetune-segment-anything-sam-for-images-with-multiple-masks-34514ee811bb 
 https://github.com/MathieuNlp/Sam_LoRA
 
 # Training SAM for multi labeled dataset (trainSam3.ipynb):
